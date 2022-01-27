@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo ""
-echo "▶️ Creating Python virtual environment"
+echo " ▶️  Creating Python virtual environment"
 echo ""
 
 rm -rf .venv/* && \
@@ -11,4 +11,4 @@ rm -rf .venv/* && \
   pip3 install -r requirements.txt
 
 echo ""
-echo "✔️ Completed! Python virtual environment for ML created."
+echo " ✔️  Completed! Python virtual environment for ML created. ☀️"
