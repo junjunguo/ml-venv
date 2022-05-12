@@ -11,3 +11,9 @@ Python virtual environments for ML
 ## VS Code
 
 Select Python from `Python 3.x.x ('.venv':venv)`
+
+### ML development 
+
+- Create ./src/ folder
+
+- put your ML or other ML repo inside
