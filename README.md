@@ -1,4 +1,4 @@
-# ML venv 
+# ML venv
 
 Python virtual environments for ML
 
@@ -11,6 +11,7 @@ Python virtual environments for ML
 ## How to use in VS Code
 
 ### 1. VS Code auto detect virtual environment
+
 - Create `./src/` folder under this repo.
 - put your code or repo inside `./src/`
 
@@ -24,8 +25,8 @@ If your project is not under venv folder, for the first time you need help VS Co
 
 1. `command + shift` then type: `Python: Select interpreter`
 2. Select Enter interpreter path:
-    - add your interpreter path.
-    - example: `.../python-env/.venv/bin/python`
+   - add your interpreter path.
+   - example: `.../python-env/.venv/bin/python`
 
 ## Python version
 
@@ -41,3 +42,19 @@ Linking /opt/homebrew/Cellar/python@3.8/3.8... 24 symlinks created.
 ~ % python3 -V
 Python 3.8.13
 ```
+
+### Windows
+
+> tested in Win 10
+
+run `.\scripts\setup.ps1` to get start
+
+- e.g.: `PS D:\git\ml-venv> .\scripts\setup.ps1`
+
+#### Python venv sytax
+
+| Platform | Shell      | Command to activate virtual environment |
+| -------- | ---------- | --------------------------------------- |
+| POSIX    | bash/zsh   | $ source <venv>/bin/activate            |
+| Windows  | cmd.exe    | C:\> <venv>\Scripts\activate.bat        |
+| Windows  | PowerShell | PS C:\> <venv>\Scripts\Activate.ps1     |
