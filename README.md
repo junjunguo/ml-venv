@@ -4,6 +4,12 @@ Python virtual environments for ML
 
 - [venv](https://docs.python.org/3/library/venv.html)
 
+## MAC M1
+
+[Get started with tensorflow-metal](https://developer.apple.com/metal/tensorflow-plugin/)
+
+- use tensorflow-metal for tensorflow on Mac.
+
 ## Makefile
 
 - run 'make' to get start
@@ -22,10 +28,10 @@ Select Python from `Python 3.x.x ('.venv':venv)`
 
 If your project is not under venv folder, for the first time you need help VS Code find your venv interpreter path.
 
-1. `command + shift` then type: `Python: Select interpreter`
+1. `command + shift + p` then type: `Python: Select interpreter`
 2. Select Enter interpreter path:
     - add your interpreter path.
-    - example: `.../python-env/.venv/bin/python`
+    - example: `~/repo/ml-venv/venv-metal/bin/python`
 
 ## Python version
 

@@ -4,9 +4,9 @@ echo ""
 echo " ▶️  Creating Python virtual environment"
 echo ""
 
-rm -rf .venv/* && \
-  python3 -m venv .venv && \
-  source .venv/bin/activate && \
+rm -rf venv-metal/* && \
+  python3 -m venv venv-metal && \
+  source venv-metal/bin/activate && \
   pip3 install pip --upgrade && \
   pip3 install -r requirements.txt
 
